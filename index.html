@@ -26,10 +26,17 @@ nav a.active {
   background-color: #0000FF;
   color: white;
 }
+  
+  nav not(.active) {
+  background-color: #0377fc;
+  color: white;
+  transition: background-color 0.5s, color 0.5s
+}
+
 
 nav a:hover:not(.active) {
   background-color: #ADD8E6;
-  color: white;
+  color: black;
   transition: background-color 0.5s, color 0.5s
 }
 
