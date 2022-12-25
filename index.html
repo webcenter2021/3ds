@@ -46,31 +46,16 @@ div.content {
   height: 1000px;
 }
 
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  nav a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-}
-
-
 </style>
 
 </head>
 <body>
 
 <nav>
-  <a class="active" href="#home">Home</a>
+  <div class="active">
+    <img src="images/homeactive">
+    <a href="home">Home</a>
+  <div>
   <a href="#news">Math</a>
   <a href="#contact">English</a>
   <a href="#about">Science</a>
