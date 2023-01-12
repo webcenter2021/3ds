@@ -30,5 +30,17 @@ nav ul a{
   line-height: 65px;
   font-size: 20px;
   color: white;
-  
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid black;
+  transition: .4s;
+}
+
+ul li:hover a{
+  padding-left: 50px;
+}
+
+sidebar ul a i{
+  margin-right: 16px;
 }
